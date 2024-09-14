@@ -306,3 +306,160 @@ td, th{
     top:280px;
     left:100px;
 }
+@media(max-width:780px){
+    body{
+        overflow-x: hidden;
+    }
+    .header{
+        height:32vh;
+    }
+    .trusted{
+    left:5rem;
+       top:1.2rem;
+    }
+    .social{
+       left:5rem;
+    }
+    .logo{
+        left:1rem;
+    }
+    .get{
+        top:7rem;
+    
+    }
+    ul{
+        position: absolute;
+        left:-5rem;
+    }
+    .search{
+      
+        top:20rem;
+        right:7rem;
+    }
+    .menu{
+        top:20rem;
+        right:4rem;
+    }
+    form{
+        position: relative;
+        top:3rem;
+        left:-3rem;
+    }
+    input{
+        
+        width:50vw;
+    }
+    .cent{
+        top:2rem;
+        position: relative;
+        height: 15vh;
+    }
+    .cent img{
+        width:90vw;
+    }.first,.second,.third,.fourth,.fifth,.six,.seven,.eight,.nine,.ten,.eleven{
+        
+        left:20px;
+    }
+    .first img ,.second img,.third img,.fourth img,.fifth img,.six img, .seven img,.eight img,.nine img,.ten img,.eleven img{
+        width:50vw;
+    }
+    .text1,.text2,.text3,.text4,.text5,.text6,.text7,.text8,.text9,.text10,.text11{
+        left:16rem;
+    
+    }
+    .text1 h3, .text2 h3,.text3 h3,.text4 h3,.text5 h3,.text6 h3,.text7 h3,.text8 h3,.text9 h3,.text10 h3,.text11 h3{
+        font-size: 0.7rem;
+    }
+    .text1 p,.text2 p,.text3 p,.text4 p,.text5 p,.text6 p,.text7 p,.text8 p, .text9 p,.text10 p, .text11 p{
+        font-size: 0.6rem;
+    }
+    .next{
+        top:2450px;
+        
+        left:17rem;
+    }
+    .join{
+        left:3rem;
+        width:75vw;
+       
+    }
+    .join form{
+
+        left:0;
+        top:0;
+    }
+    .yellow{
+        width:75vw;
+    }
+    table{
+        left:2rem;
+        width:10vw;
+    }
+    .copy{
+        top:19rem;
+        left:2rem;
+    
+    }
+}
+@media  (min-width:768px) and (max-width: 1024px){
+    body{
+       overflow-x: hidden;
+        background-color: yellow;
+    }
+   
+    .search,.menu{
+        top:11rem;
+    }
+    form{
+        position: relative;
+        top:3rem;
+        left:-3rem;
+    }
+    input{
+        
+        width:50vw;
+    }
+    .cent{
+        top:2rem;
+        position: relative;
+        height: 22vh;
+    }
+.first,.second,.third,.fourth,.fifth,.six,.seven,.eight,.nine,.ten,.eleven{
+        
+    left:15px;
+}
+.first img ,.second img,.third img,.fourth img,.fifth img,.six img, .seven img,.eight img,.nine img,.ten img,.eleven img{
+    width:40vw;
+}
+.text1,.text2,.text3,.text4,.text5,.text6,.text7,.text8,.text9,.text10,.text11{
+    left:28rem;
+
+}
+.text1 h3, .text2 h3,.text3 h3,.text4 h3,.text5 h3,.text6 h3,.text7 h3,.text8 h3,.text9 h3,.text10 h3,.text11 h3{
+    font-size: 0.9rem;
+}
+.text1 p,.text2 p,.text3 p,.text4 p,.text5 p,.text6 p,.text7 p,.text8 p, .text9 p,.text10 p, .text11 p{
+    font-size: 0.8rem;}
+    .next{
+        top:2450px;
+        
+        left:40rem;
+    }
+    .join{
+        left:3rem;
+        width:75vw;
+       
+    }
+    .join form{
+
+        left:0;
+        top:0;
+    }
+    .yellow{
+        width:75vw;
+    }
+    table{
+       
+        width:70vw;
+    }
+}
