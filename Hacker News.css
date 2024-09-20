@@ -105,7 +105,6 @@ input{
 }
 .news{
     position: relative;
-    width:100%;
     height:2480px;
 }
 img{
@@ -306,10 +305,12 @@ td, th{
     top:280px;
     left:100px;
 }
-@media(max-width:780px){
+@media(max-width:768px){
     body{
+       background: green;
         overflow-x: hidden;
     }
+
     .header{
         height:32vh;
     }
@@ -374,11 +375,15 @@ td, th{
         font-size: 0.6rem;
     }
     .next{
-        top:2450px;
+        top:160rem;
         
         left:17rem;
     }
+    .news{
+        height:450vh;
+    }
     .join{
+        top:170rem;
         left:3rem;
         width:75vw;
        
@@ -404,7 +409,7 @@ td, th{
 @media  (min-width:768px) and (max-width: 1024px){
     body{
        overflow-x: hidden;
-        background-color: yellow;
+      
     }
    
     .search,.menu{
